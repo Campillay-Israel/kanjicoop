@@ -1,0 +1,14 @@
+<%- include('partials/header') -%>
+<h1>Ver Kanjis</h1>
+
+<div class="kanjiContainer">
+    <% kanjis.forEach(function(kanji) { %>
+        <div class="kanjiCard">
+            <h2><%= kanji.word %></h2>
+            <p><strong>Kunyomi:</strong> <%= kanji.kunyomi || 'N/A' %></p>
+            <p><strong>Onyomi:</strong> <%= kanji.onyomi || 'N/A' %></p>
+        </div>
+    <% }); %>
+</div>
+
+<%- include('partials/footer') -%>

@@ -1,8 +1,23 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  font: 35px "Lucida Grande", Helvetica, Arial, sans-serif;
+ 
 }
 
 a {
-  color: #00B7FF;
+  color: #0026ff;
+}
+header{
+  background-color: gainsboro;
+  color: whitesmoke;
+  padding:10px ;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+margin: 20px;
 }
